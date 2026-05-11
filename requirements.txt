@@ -1,0 +1,10 @@
+anthropic
+yfinance
+pandas
+pydantic
+python-dotenv
+requests
+rich
+pytest
+sec-edgar-downloader
+tabulate
