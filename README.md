@@ -78,7 +78,7 @@ equity-research-agent/
 ├── requirements.txt
 ├── README.md
 └── .env
-
+```
 
 Research Memo
 The agent generates structured institutional-style equity research reports including:
