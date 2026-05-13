@@ -78,3 +78,140 @@ equity-research-agent/
 ├── requirements.txt
 ├── README.md
 └── .env
+
+
+Research Memo
+The agent generates structured institutional-style equity research reports including:
+•	Executive Summary 
+•	Business Overview 
+•	News Analysis 
+•	Financial Analysis 
+•	SEC Filing Insights 
+•	Bull Case 
+•	Bear Case 
+•	Risks 
+•	Investment Recommendation 
+•	Source Citations 
+________________________________________
+Setup Instructions
+1. Clone Repository
+git clone https://github.com/YOUR_USERNAME/equity-research-agent.git
+
+cd equity-research-agent
+________________________________________
+2. Create Virtual Environment
+Windows
+python -m venv venv
+
+venv\Scripts\activate
+Mac/Linux
+python3 -m venv venv
+
+source venv/bin/activate
+________________________________________
+3. Install Dependencies
+pip install -r requirements.txt
+________________________________________
+4. Configure Environment Variables
+Create:
+.env
+Add:
+ANTHROPIC_API_KEY=your_api_key_here
+________________________________________
+Running the Agent
+python app/main.py
+________________________________________
+Running Evaluation Harness
+python app/evaluator.py
+This benchmarks:
+•	latency 
+•	estimated token cost 
+•	memo quality 
+•	prompt versions 
+________________________________________
+Running Tests
+pytest
+________________________________________
+Prompt Versioning System
+The project includes modular prompt versioning:
+Version	Description
+v1	baseline
+v2	institutional
+v3	strict grounded agent
+This allows:
+•	A/B testing 
+•	evaluation benchmarking 
+•	prompt optimization 
+•	hallucination reduction 
+________________________________________
+Evaluation Methodology
+The evaluation harness benchmarks:
+•	latency 
+•	token cost estimation 
+•	memo completeness 
+•	manual quality scoring 
+Example quality improvements:
+Prompt Version	Avg Quality Score
+v1	1.5
+v2	2.1
+v3	2.6
+________________________________________
+Benchmark Results
+Ticker	Version	Latency	Estimated Cost
+AAPL	v3	28s	$0.19
+MSFT	v3	30s	$0.21
+NVDA	v3	31s	$0.22
+________________________________________
+CI/CD
+GitHub Actions pipeline includes:
+•	dependency installation 
+•	pytest execution 
+•	project validation 
+•	formatting checks 
+________________________________________
+Future Improvements
+•	True Claude Tool Use / Function Calling 
+•	Multi-agent research workflows 
+•	Vector database integration 
+•	Real-time market feeds 
+•	Streamlit dashboard 
+•	Portfolio-level analysis 
+•	Automated valuation models 
+•	RAG architecture 
+•	Citation verification engine 
+________________________________________
+Screenshots
+Memo Output
+ 
+ 
+ 
+Evaluation Harness
+ 
+Prompt Version Comparison
+  ________________________________________
+Why This Project Matters
+This project demonstrates:
+•	AI agent engineering 
+•	production prompt systems 
+•	financial data orchestration 
+•	evaluation infrastructure 
+•	typed AI pipelines 
+•	recruiter-grade software engineering 
+________________________________________
+
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](assets/screenshots/dashboard.png)
+
+### Evaluation Results
+
+![Evaluation](assets/screenshots/evaluation.png)
+
+### Memo Output
+
+![Memo Output](assets/screenshots/memo-output.png)
+![Memo Output](assets/screenshots/memo-output2.png)
+![Memo Output](assets/screenshots/memo-output3.png)
