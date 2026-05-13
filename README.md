@@ -95,7 +95,7 @@ The agent generates structured institutional-style equity research reports inclu
 ________________________________________
 Setup Instructions
 1. Clone Repository
-git clone https://github.com/YOUR_USERNAME/equity-research-agent.git
+git clone https://github.com/lucaspedromanuel2016/equity-research-agent.git
 
 cd equity-research-agent
 ________________________________________
@@ -180,14 +180,35 @@ Future Improvements
 •	RAG architecture 
 •	Citation verification engine 
 ________________________________________
-Screenshots
-Memo Output
- 
- 
- 
-Evaluation Harness
- 
-Prompt Version Comparison
+---
+
+# Screenshots
+
+## Memo Output
+
+<p align="center">
+  <img src="assets/screenshots/memo-output.png" width="900">
+  <img src="assets/screenshots/memo-output2.png" width="900">
+  <img src="assets/screenshots/memo-output3.png" width="900">
+</p>
+
+---
+
+## Evaluation Harness
+
+<p align="center">
+  <img src="assets/screenshots/evaluation.png" width="900">
+</p>
+
+---
+
+## Prompt Version Comparison
+
+<p align="center">
+  <img src="assets/screenshots/dashboard.png" width="900">
+</p>
+
+---
   ________________________________________
 Why This Project Matters
 This project demonstrates:
@@ -198,20 +219,3 @@ This project demonstrates:
 •	typed AI pipelines 
 •	recruiter-grade software engineering 
 ________________________________________
-
-
-## Screenshots
-
-### Dashboard
-
-![Dashboard](assets/screenshots/dashboard.png)
-
-### Evaluation Results
-
-![Evaluation](assets/screenshots/evaluation.png)
-
-### Memo Output
-
-![Memo Output](assets/screenshots/memo-output.png)
-![Memo Output](assets/screenshots/memo-output2.png)
-![Memo Output](assets/screenshots/memo-output3.png)
